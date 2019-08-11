@@ -14,7 +14,7 @@ func main() {
 
 	defer fmt.Println("bbbbbbbb")
 
-	//调用一关函数，导致内存出问题
+	//调用一个函数，导致内存出问题
 	defer testE(0)
 
 	defer fmt.Println("cccccccc")
