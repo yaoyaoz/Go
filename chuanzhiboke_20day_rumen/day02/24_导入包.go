@@ -30,4 +30,5 @@ _操作其实是引入该包，而不是直接使用包里面的函数，而是�
 func main() {
 	io.Println("this is a test")
 	io.Println("os.Args = ", os.Args)
+
 }

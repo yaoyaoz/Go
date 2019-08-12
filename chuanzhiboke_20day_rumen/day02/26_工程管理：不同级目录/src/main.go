@@ -19,3 +19,7 @@ func main() {
 	a := calc.Add(3, 5)
 	fmt.Println("a = ", a)
 }
+
+func init() {
+	fmt.Println("this main init")
+}
